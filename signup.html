@@ -1,0 +1,48 @@
+<?php include('server.php') ?>
+<html>
+<head>
+<title></title>
+<link rel="icon" href="http://www.phpkida.com/wp-content/uploads/2015/11/phpkida-new-logo-150x150.png" sizes="32x32" />
+<link rel="icon" href="http://www.phpkida.com/wp-content/uploads/2015/11/phpkida-new-logo.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://www.phpkida.com/wp-content/uploads/2015/11/phpkida-new-logo.png" />
+<!--<link href="/css/style.css" rel="stylesheet" type="text/css">-->
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<meta name="msapplication-TileImage" content="http://www.phpkida.com/wp-content/uploads/2015/11/phpkida-new-logo.png" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<script src="script.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+<div class="">
+<div class="phpkida-main">
+	<h2>Register Now</h2>
+		<form method="post" action="server.php">
+		<?php include('errors.php'); ?>
+			<input id="companyname" name="company_name" type="text" class="ggg" required="" placeholder="Company name" >
+			
+               <input id="email" name="email" type="text"class="ggg" required="" placeholder="Email">
+               <input id="contactno" name="contactno" type="number" class="ggg" required=""placeholder="Contact No">
+               <input id="contactperson" name="contact_person_name" type="text" placeholder="Contact person" class="ggg" required="">
+	
+               <input id="state" name="state" type="text" placeholder="State" class="ggg" required="">
+               <input id="district" name="district" type="text" placeholder="District" class="ggg" required="">
+				<input id="address" name="address" type="text" placeholder="Address" class="ggg" required="">
+			   
+			   <input id="password" name="password_1" type="password" placeholder="Password" class="ggg" required="">
+               <input id="confirmpassword" name="password_2" type="password" placeholder="Confirm Password" class="ggg" required="">
+	
+               <input id="website" name="website" type="text" placeholder="Website" class="ggg" required="">
+				<input type="submit" value="submit" name="reg_user">
+		</form>
+		<p>Already Registered. <a href="signin.php">Login</a></p>
+</div>
+</div>
+
+</body>
+</html>
