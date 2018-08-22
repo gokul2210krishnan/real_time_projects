@@ -2,9 +2,6 @@
 <head>
 	<title>Enterprise Management</title>
 	<style>
-		body{
-			background: #1E90FF url("C:\xampp\htdocs\images\intro.gif") no-repeat fixed center;
-		}
 		h1{
 			color: brown;
 			text-transform:uppercase;
@@ -84,4 +81,4 @@
 	</div>
 	<iframe class="iframe" src="ho_me.html" width="1345" height="500" style="background:#f9db48"></iframe>
 </body>
-</html>
+</html>			
