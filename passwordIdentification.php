@@ -12,8 +12,6 @@ $i=0;
 $pass=[123456789,987654321,147258369,321654987,369258147,963852741,789456123,741852963];
 $results = mysqli_query($link,$query) or die('Query failed: ' . mysql_error());
 if ( mysqli_num_rows($results) > 0 ) {
-		
-
 		while($row = mysqli_fetch_assoc($results)):
 		{
 			array_push($array_name,$row['company_name']);
